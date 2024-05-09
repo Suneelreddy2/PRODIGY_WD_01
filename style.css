@@ -127,8 +127,10 @@ li a:hover {
     height: 20rem;
   }
   .navbar {
+    height:300px;
     flex-direction: column;
     text-align: center;
+    transition:all 0.3s ease-out;
   }
   li {
     margin: 0.5rem 0;
