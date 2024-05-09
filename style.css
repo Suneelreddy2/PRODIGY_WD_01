@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  margin-right: 20px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+.burger {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  top: 20px;
+}
+.line {
+  width: 33px;
+  background-color: #ffffff;
+  height: 4px;
+  margin: 5px 3px;
+}
+
+.logo {
+  color: #ffffff;
+  padding-left: 4rem;
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.image {
+  height: 45rem;
+  width: 100%;
+  background-image: url("https://www.nbkrist.co.in/images/scroll/caro1.jpg");
+  background-size: cover;
+}
+
+li {
+  margin-right: 2rem;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+li a:hover {
+  color: orange;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+.courses {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+}
+.i1,
+.i2,
+.i3,
+.i4 {
+  height: 14.5rem;
+  width: 20rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  border-radius: 2%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.i1 {
+  background-image: url("https://uploads.sarvgyan.com/2014/06/cse-image.jpg");
+}
+
+.i2 {
+  background-image: url("https://i.pinimg.com/originals/0f/ef/b6/0fefb6aba650220dd10deb23fb1367f9.jpg");
+}
+
+.i3 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPJ_FN88QpNNDunHP2mApXuMKcNJPVvlDtgTLB5P54dw&s");
+}
+
+.i4 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDJ8JkNULttyMsXPyHZDnei6WM_Lzu8j0cWc7d5Yzydw&s");
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+  }
+  .image {
+    height: 20rem;
+  }
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  li {
+    margin: 0.5rem 0;
+  }
+  .list {
+    flex-direction: column;
+  }
+  .burger {
+    display: block;
+  }
+  .image {
+    background-image: url("https://www.nbkrist.co.in/images/scroll/caro1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .courses {
+    justify-content: center;
+  }
+  .h-nav {
+    height: 67px;
+  }
+  .v-class-resp {
+    opacity: 0;
+  }
+
+  .i1,
+  .i2,
+  .i3,
+  .i4 {
+    margin: 1rem;
+    background-size: contain;
+  }
+}
