@@ -11,6 +11,7 @@
   background-color: #333;
   color: white;
   padding: 10px 20px;
+  
 }
 
 .logo {
@@ -130,7 +131,7 @@ li a:hover {
     height:300px;
     flex-direction: column;
     text-align: center;
-    transition:all 0.3s ease-out;
+    transition: all 0.7s ease-out;
   }
   li {
     margin: 0.5rem 0;
